@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <link rel="shortcut icon" href="./Assets/logo.png" />
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Rick and Morty Wiki</title>
+
+<body>
+  <div><img src="./Assets/themepic.png" alt="themepic"></div>
+  <h2>Rick and Morty</h2>
+
+
+    <form onsubmit="search(); return false;" class="w3-animate-left">
+      <div class="form-group">
+        <label for="name"></label>
+        <input type="text" class="form-control" id="name" placeholder="Enter Name">
+      </div>
+
+      <div class="form-group">
+        <label for="gender"> Select Gender</label>
+        <select class="form-control" id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="genderless">Genderless</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="status">Select Status</label>
+        <select class="form-control" id="status">
+          <option value="alive">Alive</option>
+          <option value="dead">Dead</option>
+          <option value="unknown">Unknown</option>
+        </select>
+      </div>
+      <div>
+        <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+    </form>
+
+    <div id="info"></div>
+
+
+  </body>
+  <script src="./script.js"></script>
+</html>
