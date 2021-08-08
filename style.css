@@ -1,5 +1,12 @@
+body {
+  max-width: 1080px;
+  margin: auto;
+  background-color: #f5f4f4;
+}
+
 div img {
   width: 100%;
+  border-radius: 4px;
 }
 
 form {
@@ -9,4 +16,18 @@ form {
 
 h2 {
   text-align: center;
+  margin-top: 30px;
+}
+
+.pagebutton {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.img-responsive {
+  margin-left: 10px;
 }

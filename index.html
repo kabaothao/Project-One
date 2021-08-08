@@ -32,7 +32,7 @@
   <h2>Rick and Morty</h2>
 
 
-    <form onsubmit="search(); return false;" class="w3-animate-left">
+    <form onsubmit="search(true); return false;" class="w3-animate-left">
       <div class="form-group">
         <label for="name"></label>
         <input type="text" class="form-control" id="name" placeholder="Enter Name">
@@ -60,8 +60,8 @@
       </div>
     </form>
 
-    <div id="info"></div>
-
+    <div id="info" class="row"></div>
+    <div class="pagebutton" id="pagingSection"></div>
 
   </body>
   <script src="./script.js"></script>
