@@ -41,9 +41,9 @@
 
 ## Screenshots
 
-# ![Example screenshot](Assets\imagedesktop.PNG)
+# ![Example screenshot](https://github.com/kabaothao/Project-One/blob/main/Assets/imagedesktop.PNG)
 
-# ![Example screenshot](Assets\picone.PNG)
+# ![Example screenshot](https://github.com/kabaothao/Project-One/blob/main/Assets/picone.PNG)
 
 <!-- If you have screenshots you'd like to share, include them here. -->
 
@@ -56,7 +56,7 @@
 
 How does one go about using it?
 
-- To showcase my best work, personality, and talents. It is to show my skills, share my enthusiasm about the profession and give my potential employers and clients a glimpse of how awesome it would be to work with me.
+- To search a character name, gender, and status. 
 
 For example:
 
