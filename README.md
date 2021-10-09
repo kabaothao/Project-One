@@ -1,4 +1,4 @@
-# Project-One
+# Rick-and-Morty-Wiki
 
 > Outline a brief description of your project.
 > Live demo [_here_](https://kabaothao.github.io/Project-One/). <!-- If you have the project hosted somewhere, include the link here. -->
